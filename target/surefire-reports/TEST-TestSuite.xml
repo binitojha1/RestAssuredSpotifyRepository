@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.354" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.679" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/testvagrant/Documents/RestAssuredTestNGFramework-master/target/surefire/surefirebooter16702545923372560050.jar /Users/testvagrant/Documents/RestAssuredTestNGFramework-master/target/surefire 2023-02-01T13-24-18_954-jvmRun1 surefire16191971463409746029tmp surefire_07993133493944000835tmp"/>
+    <property name="sun.java.command" value="/Users/testvagrant/Documents/RestAssuredTestNGFramework-master/target/surefire/surefirebooter17351645015335316385.jar /Users/testvagrant/Documents/RestAssuredTestNGFramework-master/target/surefire 2023-02-01T15-35-06_788-jvmRun1 surefire16045228139221906137tmp surefire_09469071709011450890tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/testvagrant/Documents/RestAssuredTestNGFramework-master/target/test-classes:/Users/testvagrant/Documents/RestAssuredTestNGFramework-master/target/classes:/Users/testvagrant/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/testvagrant/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/testvagrant/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/testvagrant/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/testvagrant/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/testvagrant/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/testvagrant/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/testvagrant/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/testvagrant/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/testvagrant/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/testvagrant/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/testvagrant/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/testvagrant/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/testvagrant/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/testvagrant/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/testvagrant/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/testvagrant/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/testvagrant/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/testvagrant/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/testvagrant/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/testvagrant/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/testvagrant/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/testvagrant/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/testvagrant/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/testvagrant/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/testvagrant/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/testvagrant/.m2/repository/com/google/guava/guava/25.1-android/guava-25.1-android.jar:/Users/testvagrant/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/testvagrant/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/testvagrant/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/testvagrant/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/testvagrant/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/testvagrant/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/testvagrant/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/testvagrant/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/testvagrant/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/testvagrant/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/Users/testvagrant/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/testvagrant/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:/Users/testvagrant/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/testvagrant/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/testvagrant/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/testvagrant/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/testvagrant/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/testvagrant/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/testvagrant/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.8/allure-rest-assured-2.13.8.jar:/Users/testvagrant/.m2/repository/io/qameta/allure/allure-attachments/2.13.8/allure-attachments-2.13.8.jar:/Users/testvagrant/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/testvagrant/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/testvagrant/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/testvagrant/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/testvagrant/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/testvagrant/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/testvagrant/Documents/RestAssuredTestNGFramework-master/target/surefire/surefirebooter16702545923372560050.jar"/>
+    <property name="surefire.real.class.path" value="/Users/testvagrant/Documents/RestAssuredTestNGFramework-master/target/surefire/surefirebooter17351645015335316385.jar"/>
     <property name="BASE_URI" value="https://api.spotify.com"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -45,6 +45,7 @@
     <property name="java.vendor.version" value="Homebrew"/>
     <property name="localRepository" value="/Users/testvagrant/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="CLIENT_SECRET" value="9cbc65f1b0064f1496ab5bc88c92deca"/>
     <property name="java.io.tmpdir" value="/var/folders/4q/bckgr8bd01nf6xm_tq0zkqp80000gn/T/"/>
     <property name="java.version" value="19.0.2"/>
     <property name="user.dir" value="/Users/testvagrant/Documents/RestAssuredTestNGFramework-master"/>
@@ -61,17 +62,17 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="ShouldNotBeAbleToCreateAPlaylistWithExpiredToken" classname="com.spotify.oauth2.tests.PlaylistTests" time="2.546">
-    <system-out><![CDATA[STARTING TEST: ShouldNotBeAbleToCreateAPlaylistWithoutName
-STARTING TEST: ShouldBeAbleToCreateAPlaylist
-STARTING TEST: ShouldBeAbleToGetAPlaylist
-STARTING TEST: ShouldNotBeAbleToCreateAPlaylistWithExpiredToken
-STARTING TEST: ShouldBeAbleToUpdateAPlaylist
+  <testcase name="ShouldNotBeAbleToCreateAPlaylistWithExpiredToken" classname="com.spotify.oauth2.tests.PlaylistTests" time="2.618">
+    <system-out><![CDATA[STARTING TEST: ShouldNotBeAbleToCreateAPlaylistWithExpiredToken
 THREAD ID: 34
+STARTING TEST: ShouldBeAbleToGetAPlaylist
 THREAD ID: 32
+STARTING TEST: ShouldBeAbleToUpdateAPlaylist
 THREAD ID: 33
-THREAD ID: 31
+STARTING TEST: ShouldNotBeAbleToCreateAPlaylistWithoutName
+STARTING TEST: ShouldBeAbleToCreateAPlaylist
 THREAD ID: 35
+THREAD ID: 31
 Renewing token ...
 Request method:	POST
 Request URI:	https://accounts.spotify.com/api/token
@@ -101,8 +102,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Description 5@&+S####fv i# 7&xGr_h&_ D&_&7Tg# #5&Wc&__pe&_Zv5#",
-    "name": "Playlist t iH _ Nu,",
+    "description": "Description I#q_xC&&&_#_8o#gd##  J+_#_+#++##5#___@Mq_F&3w#+# f",
+    "name": "Playlist k_,,T ,,5_",
     "public": false
 }
 HTTP/1.1 401 Unauthorized
@@ -116,7 +117,7 @@ content-type: application/json
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Wed, 01 Feb 2023 07:54:23 GMT
+date: Wed, 01 Feb 2023 10:05:11 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
@@ -129,14 +130,14 @@ Transfer-Encoding: chunked
     }
 }
 HTTP/1.1 200 OK
-date: Wed, 01 Feb 2023 07:54:23 GMT
+date: Wed, 01 Feb 2023 10:05:11 GMT
 content-type: application/json
 vary: Accept-Encoding
-set-cookie: __Host-device_id=AQAomnMerNu7Vbf5gAEDt0fBH1YDNmkNGnzEpy1_lUzzdWm0x97u1GOMxAL3TbqRyJ66m1ngVoapwO0nbid7R0UawHWX2CMve6I;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: __Host-device_id=AQD2CCrx4HX7OkkfeWikyl_reu0c-bjtNX1WS1SgGaxy4bL5ad5TSjScQj3M0HY54_zS2hILKA2HfEanQI8cVhMXtBY8W7jp3_4;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
 set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
-sp-trace-id: 8bdeefe19c6c8114
+sp-trace-id: 035f0fbc14dec209
 content-encoding: gzip
-x-envoy-upstream-service-time: 30
+x-envoy-upstream-service-time: 34
 server: envoy
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
@@ -145,7 +146,7 @@ Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 Transfer-Encoding: chunked
 
 {
-    "access_token": "BQA-D9227y5_6njDblnoQgDKGH5PJasSrxXum_92nwcG8uwzHvDUySdFdAwws7sX5QSceTjcRXVfcq1h45S_x_o5XdXQRGz_cm_4dvSm2Mcnid2mChjG93zyLUcv83sea970cWtcJAKshqe-S22KhZ9gUMMNQRZnZ6CMTh5mXphy_h2DZmq-S3Kb81ueTn02tBx8yxzCF_6z4EfoGUYnJDDrRmFVj3dakYnppaI1aC40ORxROkLMXOvf40AgZHV4P7XI2OjE0ijTy0Gb9w",
+    "access_token": "BQDG2tgRvnaXyOO4MUAQz-ciAozD9DzhlJNynyBsdSjQpxSo_x9a7NsiAkwzFzJznplpqKbMz7wMbrWsGBFmZDS6FEk66-9CeTFHtUvQ9JaSYCfj66VW2rI7QWNNMWIystA98OJWbpy6gQBDaR6DA2gDzzE5hzZQGqtKGp4HShqC3_7ITo1WKwaKmhm20mrKrU8rLVoF8X2yQjzMYTnnO_sGddDHTq50pwiG-gz26WctL3c7yc0Kwvh_cniHP3oGTdUTJ5Wr0piUl2kG1A",
     "token_type": "Bearer",
     "expires_in": 3600,
     "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
@@ -156,7 +157,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="ShouldNotBeAbleToCreateAPlaylistWithoutName" classname="com.spotify.oauth2.tests.PlaylistTests" time="3.292">
+  <testcase name="ShouldNotBeAbleToCreateAPlaylistWithoutName" classname="com.spotify.oauth2.tests.PlaylistTests" time="3.383">
     <system-out><![CDATA[Token is good to use
 Token is good to use
 Token is good to use
@@ -185,8 +186,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Description ba__#r&iF9. 5P#_7# d+_nc+28++c&&_.#K.+_#+4 poW+kE+",
-    "name": "Playlist  _-oYM -_9",
+    "description": "Description +X - 7 +## &+8+& 8Or_&J_+T g&_  p5#+_2b_&+PA+_wB__",
+    "name": "Playlist  -_m6,_-o5",
     "public": false
 }
 Request method:	POST
@@ -202,8 +203,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Description C_l FXM&_#k&&& 9&9&+#m_+29z_7#&&G/_/ _&M5+-#c__ +_",
-    "name": "Playlist   _ B,- 1-",
+    "description": "Description +X&N4# _#2f_R@ __ 2&g _&_#+5##g_5-+&+o& ##&r8&fk+u",
+    "name": "Playlist q_4, , r, ",
     "public": false
 }
 Request method:	POST
@@ -219,7 +220,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Description +++7+e&.I_R#6&&_ M_t-##8&q4&tzZV&#Bhq_ P8#- 83+k8w",
+    "description": "Description &#0 Z+XJ  +e&#/v&Wh KamU8 u+B6B#+&   +&& &# #_&&1#",
     "name": "",
     "public": false
 }
@@ -235,7 +236,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Wed, 01 Feb 2023 07:54:24 GMT
+date: Wed, 01 Feb 2023 10:05:12 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
@@ -249,7 +250,7 @@ Transfer-Encoding: chunked
 }
 ]]></system-out>
   </testcase>
-  <testcase name="ShouldBeAbleToGetAPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="3.352">
+  <testcase name="ShouldBeAbleToGetAPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="3.457">
     <system-out><![CDATA[HTTP/1.1 200 OK
 content-type: application/json; charset=utf-8
 cache-control: public, max-age=0
@@ -263,7 +264,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Wed, 01 Feb 2023 07:54:24 GMT
+date: Wed, 01 Feb 2023 10:05:12 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
@@ -314,7 +315,7 @@ Transfer-Encoding: chunked
 }
 ]]></system-out>
   </testcase>
-  <testcase name="ShouldBeAbleToUpdateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="3.395">
+  <testcase name="ShouldBeAbleToUpdateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="3.505">
     <system-out><![CDATA[HTTP/1.1 200 OK
 cache-control: private, max-age=0
 x-robots-tag: noindex, nofollow
@@ -326,17 +327,17 @@ access-control-max-age: 604800
 Content-Length: 0
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Wed, 01 Feb 2023 07:54:24 GMT
+date: Wed, 01 Feb 2023 10:05:12 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 ]]></system-out>
   </testcase>
-  <testcase name="ShouldBeAbleToCreateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="3.431">
+  <testcase name="ShouldBeAbleToCreateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="3.533">
     <system-out><![CDATA[HTTP/1.1 201 Created
 content-type: application/json; charset=utf-8
 cache-control: private, max-age=0
-location: https://api.spotify.com/v1/playlists/4hj39vbnQv98rDqs3Y79HV
+location: https://api.spotify.com/v1/playlists/2QAskHi9WQOE5b2pL53cAf
 x-robots-tag: noindex, nofollow
 access-control-allow-origin: *
 access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
@@ -346,7 +347,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Wed, 01 Feb 2023 07:54:24 GMT
+date: Wed, 01 Feb 2023 10:05:12 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
@@ -354,20 +355,20 @@ Transfer-Encoding: chunked
 
 {
     "collaborative": false,
-    "description": "Description C_l FXM&_#k&&& 9&9&+#m_+29z_7#&&G/_/ _&M5+-#c__ +_",
+    "description": "Description +X&N4# _#2f_R@ __ 2&g _&_#+5##g_5-+&+o& ##&r8&fk+u",
     "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/4hj39vbnQv98rDqs3Y79HV"
+        "spotify": "https://open.spotify.com/playlist/2QAskHi9WQOE5b2pL53cAf"
     },
     "followers": {
         "href": null,
         "total": 0
     },
-    "href": "https://api.spotify.com/v1/playlists/4hj39vbnQv98rDqs3Y79HV",
-    "id": "4hj39vbnQv98rDqs3Y79HV",
+    "href": "https://api.spotify.com/v1/playlists/2QAskHi9WQOE5b2pL53cAf",
+    "id": "2QAskHi9WQOE5b2pL53cAf",
     "images": [
         
     ],
-    "name": "Playlist   _ B,- 1-",
+    "name": "Playlist q_4, , r, ",
     "owner": {
         "display_name": "Binit",
         "external_urls": {
@@ -380,9 +381,9 @@ Transfer-Encoding: chunked
     },
     "primary_color": null,
     "public": false,
-    "snapshot_id": "MSxjZTU5MWEyZDRmYTkyMmY3YzQ0MGY5NmM3ZjRjMmJjYTAzYzJlNjYw",
+    "snapshot_id": "MSwwYzMzMGM2MTI4NWExMzljNmNkZGYxMGE2YzY0NGFlMTg3N2ZhMmFj",
     "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/4hj39vbnQv98rDqs3Y79HV/tracks",
+        "href": "https://api.spotify.com/v1/playlists/2QAskHi9WQOE5b2pL53cAf/tracks",
         "items": [
             
         ],
@@ -393,7 +394,7 @@ Transfer-Encoding: chunked
         "total": 0
     },
     "type": "playlist",
-    "uri": "spotify:playlist:4hj39vbnQv98rDqs3Y79HV"
+    "uri": "spotify:playlist:2QAskHi9WQOE5b2pL53cAf"
 }
 ]]></system-out>
   </testcase>

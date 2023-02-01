@@ -18,6 +18,7 @@ import static org.hamcrest.Matchers.equalTo;
 @Feature("Playlist API")
 public class PlaylistTests extends BaseTest {
 
+
     @Test(description = "should be able to create a playlist")
     public void ShouldBeAbleToCreateAPlaylist(){
         Playlist requestPlaylist = playlistBuilder(generateName(), generateDescription(), false);
